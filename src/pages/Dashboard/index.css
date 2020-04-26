@@ -1,0 +1,46 @@
+.content-dashboard {
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 5%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(10, 86, 107, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(10, 86, 107, 1);
+    box-shadow: 0px 0px 10px 0px rgba(10, 86, 107, 1);
+}
+
+.emprestimo-list {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+
+ul.emprestimo-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.emprestimo-list li header {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+ul.emprestimo-list li strong {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #444444;
+}
+
+ul.emprestimo-list li label {
+    font-size: 15px;
+    color: #504f4f;
+}
+
+ul.emprestimo-list li span {
+    font-size: 15px;
+    color: #999999;
+}
