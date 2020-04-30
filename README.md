@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Frontend
 
-## Available Scripts
+No Frontend a aplicação você vai escolher um usuário do github mesmo, vai logar ele vai cadastar e você vai poder criar um financiamento quantos forém necessário.
 
-In the project directory, you can run:
+No backend o banco esta hospedado no servidor atlas para ficar mais fácil,
+
+No moblie está a funcionalidade de ver os emprestimos disponivel e efetuar a solicitação do mesmo.
+
+## Clonar ou Baixar o repósitorio
+
+[https://github.com/WillianHMartins/LabsFronts]
+
+Após clonar o repositório, 
+
+Digitar : cd frontend
+
+## E após 
+
+yarn install
+
+## Iníciar o projeto
 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Backend
 
-### `yarn test`
+Baixar o o Repositório
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[https://github.com/WillianHMartins/LabsBackend]
 
-### `yarn build`
+## Instalar dependências Banckend
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+yarn install
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Executando o Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+yarn dev
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Mobile
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Baixar projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+https://github.com/WillianHMartins/LabMobile
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Instalar dependências mobile
 
-## Learn More
+yarn install
+expo install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Executando o Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+expo start
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+No mobile poderá usar a opção do menu run in web browser ou instalar o expo em algum celular e executar por ele.

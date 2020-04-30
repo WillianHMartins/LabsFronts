@@ -44,3 +44,51 @@ ul.emprestimo-list li span {
     font-size: 15px;
     color: #999999;
 }
+
+ul.notifications {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul.notifications li {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.aprov {
+    background-color: #84c870;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reprov {
+    background-color: #E55E5E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info-emp {
+    margin-bottom: 15px;
+    background-color: rgba(229, 94, 94, 0.671);
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+    box-shadow: 0px 0px 2px 0px rgba(10, 86, 107, 1);
+}

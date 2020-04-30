@@ -8,11 +8,8 @@ import 'react-datepicker/dist/react-datepicker.css';
 export default function New({ history }) {
 	const [thumbnail, setThumbnail] = useState(null)
 	const [name, setName] = useState('')
-	const [debtReason, setDebtReason] = useState('')
-	const [debtDate, setDebtDate] = useState(new Date(''))
 	const [rateInterest, setRateInterest] = useState('')
 	const [types, setTypes] = useState('')
-	const [price, setPrice] = useState('')
 
 	const preview = useMemo(
 		() => {
@@ -28,11 +25,8 @@ export default function New({ history }) {
 
 		data.append('thumbnail', thumbnail)
 		data.append('name', name)
-		data.append('debtReason', debtReason)
-		data.append('debtDate', debtDate)
 		data.append('rateInterest', rateInterest)
 		data.append('types', types)
-		data.append('price', price);
 
 		await api.post('/emprestimos', data, {
 			headers: { user_id }
@@ -62,22 +56,6 @@ export default function New({ history }) {
 					value={name}
 					onChange={(event) => setName(event.target.value)}
 				/>
-				<label htmlFor='debtReason'>Finalidade do Empréstimo</label>
-				<input
-					id='debtReason'
-					placeholder='Finalidade do Empréstimo'
-					value={debtReason}
-					onChange={(event) => setDebtReason(event.target.value)}
-				/>
-				<label htmlFor='debtDate'>Data da Solicitação</label>
-
-				<input
-					id='debtDate'
-					type='date'
-					placeholder='Data da Solicitação'
-					value={debtDate}
-					onChange={(event) => setDebtDate(event.target.value)}
-				/>
 				<label htmlFor='rateInterest'>Taxa de Juros</label>
 				<input
 					id='rateInterest'
@@ -93,13 +71,6 @@ export default function New({ history }) {
 					placeholder='Parcelas'
 					value={types}
 					onChange={(event) => setTypes(event.target.value)}
-				/>
-				<label htmlFor='price'>Valor do Empréstimo</label>
-				<input
-					id='price'
-					placeholder='Valor do Emprestimo'
-					value={price}
-					onChange={(event) => setPrice(event.target.value)}
 				/>
 				<button type='submit' className='btn'>
 					Cadastrar
